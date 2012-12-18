@@ -1,0 +1,31 @@
+@import 'bourbon/_bourbon';
+@import 'neat/_neat';
+
+form {
+  display: block;
+   margin: .5em;
+   input[type='text']{
+     font-size: 2em;
+     width: 100%;
+   }
+}
+div.container {
+  @include outer-container;
+  background-color: #e4e4e4;
+}
+
+div.result{
+  float: left;
+  width: 22%;
+  height: 25em;
+  margin: 1em 1em 0em 0em;
+  overflow: hidden;
+  img{
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
+.working{
+  margin-left: 2em;
+  color: green;
+}
